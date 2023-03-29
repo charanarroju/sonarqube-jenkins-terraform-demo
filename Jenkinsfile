@@ -10,7 +10,7 @@ pipeline {
             steps { 
                 sh 'terraform init' 
                 sh 'pwd' 
-                sh 'll' 
+                sh 'ls -al' 
                 sh 'printenv' 
             } 
         } 
